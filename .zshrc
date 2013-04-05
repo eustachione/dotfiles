@@ -17,6 +17,8 @@ alias agora="cd /Users/aeustace/workspaces/liu-agora/sk-liu-web"
 alias gg="source /Users/aeustace/.gvm/bin/gvm-init.sh"
 alias filetree="ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/ /' -e 's/-/|/'" 
 
+alias st="grep Got\ user /var/log/system.log"
+
 # todo settings
 alias td="cat ~/Google\ Drive/todo.txt"
 alias ed="vi ~/Google\ Drive/todo.txt"
